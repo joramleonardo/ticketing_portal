@@ -1,0 +1,11 @@
+@import '../js/Assets/styles/tailwind.css'; /* ✅ Must come first */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
